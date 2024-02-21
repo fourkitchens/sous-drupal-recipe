@@ -3,7 +3,9 @@ description: 'A recipe that contains default configuration for Sous layout build
 type: 'Sous'
 install:
   # Install core dependencies.
+  - gin_lb
   - layout_builder
+  - layout_builder_browser
   - layout_discovery
 config:
   actions:
