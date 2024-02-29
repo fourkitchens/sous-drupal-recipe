@@ -1,6 +1,8 @@
 name: 'Sous Layout Builder'
 description: 'A recipe that contains default configuration for Sous layout builder.'
 type: 'Sous'
+recipes:
+  - sous_content_types
 install:
   # Install core dependencies.
   - gin_lb

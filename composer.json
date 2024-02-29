@@ -27,6 +27,10 @@
         {
             "type": "path",
             "url": "assets/scaffold/recipes/sous_paragraphs"
+        },
+        {
+            "type": "path",
+            "url": "assets/scaffold/recipes/sous_layout_builder"
         }
     ],
     "require": {
