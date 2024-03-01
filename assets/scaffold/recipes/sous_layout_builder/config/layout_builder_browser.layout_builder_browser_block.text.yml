@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: text
+block_id: 'inline_block:text'
+category: basic
+label: Text
+image_path: recipes/sous_layout_builder/assets/text-icon.svg
+image_alt: 'Page with lines representing text'
+weight: null

@@ -1,0 +1,5 @@
+enabled_section_storages:
+  - overrides
+use_modal: true
+auto_added_reusable_block_content_bundles:
+  text: text
