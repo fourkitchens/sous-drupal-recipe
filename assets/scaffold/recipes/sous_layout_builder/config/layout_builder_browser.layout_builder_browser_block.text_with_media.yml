@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: text_with_media
+block_id: 'inline_block:text_with_media'
+category: basic
+label: 'Text with media'
+image_path: recipes/sous_layout_builder/assets/text-media-icon.svg
+image_alt: 'Icon representing text and an image aligned side by side'
+weight: -100

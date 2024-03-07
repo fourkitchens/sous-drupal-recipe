@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: video
+block_id: 'inline_block:video'
+category: basic
+label: Video
+image_path: recipes/sous_layout_builder/assets/video-icon.svg
+image_alt: 'Icon representing a video player with a play button'
+weight: null

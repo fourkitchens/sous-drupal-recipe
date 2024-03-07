@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_with_media
+    - field.storage.block_content.field_media_alignment
+  module:
+    - options
+id: block_content.text_with_media.field_media_alignment
+field_name: field_media_alignment
+entity_type: block_content
+bundle: text_with_media
+label: 'Media Alignment'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

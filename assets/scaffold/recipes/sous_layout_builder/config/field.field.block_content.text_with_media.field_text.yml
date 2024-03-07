@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.text_with_media
+    - field.storage.block_content.field_text
+    - filter.format.plain_text
+  module:
+    - text
+id: block_content.text_with_media.field_text
+field_name: field_text
+entity_type: block_content
+bundle: text_with_media
+label: Text
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - plain_text
+field_type: text_long
