@@ -5,10 +5,12 @@ recipes:
   - sous_content_types
 install:
   # Install core dependencies.
+  - block_content
   - gin_lb
   - layout_builder
   - layout_builder_browser
   - layout_discovery
+  - options
 config:
   actions:
     core.entity_view_display.node.page.default:
@@ -43,3 +45,7 @@ config:
             - field.field.node.page.layout_builder__layout
         hidden:
           layout_builder__layout: true
+    gin_lb.settings:
+      simple_config_update:
+        toastify_loading: custom
+        save_behavior: default
