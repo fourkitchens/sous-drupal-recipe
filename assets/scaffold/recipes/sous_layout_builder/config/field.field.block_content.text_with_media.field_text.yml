@@ -4,7 +4,7 @@ dependencies:
   config:
     - block_content.type.text_with_media
     - field.storage.block_content.field_text
-    - filter.format.plain_text
+    - filter.format.basic_html
   module:
     - text
 id: block_content.text_with_media.field_text
@@ -19,5 +19,5 @@ default_value: {  }
 default_value_callback: ''
 settings:
   allowed_formats:
-    - plain_text
+    - basic_html
 field_type: text_long
